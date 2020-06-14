@@ -30,8 +30,12 @@ const avengers: Array<IAvenger> = [
   },
 ];
 
-const getAvengersData = () => {
+const find = () => {
   return avengers;
 };
 
-export { IAvenger, getAvengersData };
+const findByName = (name: string) => {
+  return avengers.filter((avenger) => avenger?.name === name);
+};
+
+export { IAvenger, find, findByName };
