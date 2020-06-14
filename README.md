@@ -7,6 +7,10 @@
 
 First of all, you need check if you have Deno installed on your OS. If you don't have, check the documentation.
 
+<p align="center">
+  <a href="https://deno.land/manual">How to use</a>
+</p>
+
 #### Getting Started
 
 - Below, we have the modules that I used in my API
@@ -25,3 +29,9 @@ https://deno.land/x/abc@v1.0.0-rc2/mod.ts
 cd deno-rest-api
 deno run --allow-write --allow-read --allow-plugin --allow-net --allow-env --unstable app.ts
 ```
+
+#### References
+
+- https://dev.to/slimhmidi/create-a-server-with-deno-and-mongo-206l
+- https://docs.mongodb.com/manual/reference/program/mongoexport/
+- https://deno.land/
