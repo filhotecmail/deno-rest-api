@@ -1,5 +1,5 @@
 <div align="center">
-  <p align="center" style="font-weight:bold;font-size:25px;">Heroes Deno REST API</p>
+  <h1>Heroes Deno REST API</h1>
 </div>
 
 #### A Simple Guide to create an API using Deno and MongoDB
