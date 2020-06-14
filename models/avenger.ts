@@ -38,4 +38,8 @@ const findByName = (name: string) => {
   return avengers.filter((avenger) => avenger?.name === name);
 };
 
+const findByHeroeName = (heroeName: string) => {
+  return avengers.filter((avenger) => avenger?.heroeName === heroeName);
+};
+
 export { IAvenger, find, findByName };
