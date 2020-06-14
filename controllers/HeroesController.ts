@@ -83,7 +83,7 @@ export const update: HandlerFunc = async (c: Context) => {
       if (matchedCount) {
         return c.string("Heroe updated successfully!", 204);
       }
-      return c.string("Unable to update employee");
+      return c.string("Unable to update heroe");
     }
     throw new ErrorHandler("Heroe not found", 404);
   } catch (error) {
